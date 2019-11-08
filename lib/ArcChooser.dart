@@ -47,11 +47,11 @@ class ChooserState extends State<ArcChooser> with SingleTickerProviderStateMixin
   }
 
   static double degreeToRadians(double degree) {
-    return degree * (PI / 180);
+    return degree * (pi / 180);
   }
 
   static double radianToDegrees(double radian) {
-    return radian * (180 / PI );
+    return radian * (180 / pi );
   }
 
   @override
